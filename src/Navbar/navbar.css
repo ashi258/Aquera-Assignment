@@ -1,0 +1,20 @@
+.navbar {
+  background: url('../Assets/Images/banner-bg.png');
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  animation: zoomInOut 2s infinite alternate;
+}
+
+@keyframes zoomInOut {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}

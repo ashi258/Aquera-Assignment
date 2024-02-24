@@ -1,0 +1,31 @@
+.App {
+    text-align: center;
+    margin: 30px 60px 30px 60px;
+    background: url('../Assets/Images/banner-bg.png');
+    color: #ccc;
+}  
+  .planets-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .planet-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 10px;
+  }
+  
